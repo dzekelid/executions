@@ -36,7 +36,7 @@ apis:
   tags: Executions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/executions/master/_listings/aws-ec2-systems-manager/action-describeautomationexecutions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/executions/master/_listings/aws-ec2-systems-manager/action-describemaintenancewindowexecutions-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/ssm/latest/APIReference/Welcome.html
