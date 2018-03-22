@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeMaintenanceWindowExecutions&k=1:
+  /?Action=DescribeMaintenanceWindowExecutions:
     get:
       summary: ' Describe Maintenance Window Executions '
       description: |-
