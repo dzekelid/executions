@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeAutomationExecutions&k=1:
+  /?Action=DescribeAutomationExecutions:
     get:
       summary: ' Describe Automation Executions '
       description: Provides details about all active and terminated Automation executions
