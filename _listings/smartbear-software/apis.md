@@ -29,7 +29,7 @@ apis:
   tags: Executions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-logs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-files-post.md
 x-common:
 - type: x-blog
   url: http://blog.smartbear.com/
