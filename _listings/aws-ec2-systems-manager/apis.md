@@ -21,8 +21,8 @@ tags:
 - Deployment
 - Cloud
 - Amazon Web Services
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/aws-ec2-systems-manager/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -36,7 +36,7 @@ apis:
   tags: Executions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/aws-ec2-systems-manager/action-describemaintenancewindowexecutions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/aws-ec2-systems-manager/action-describeautomationexecutions-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/ssm/latest/APIReference/Welcome.html
