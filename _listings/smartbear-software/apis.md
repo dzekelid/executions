@@ -30,18 +30,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-transactions-transactionid-get.md
-- name: TestServer REST API Executes a Ready! API project.
-  description: Use this operation to send a Ready! API test project to the TestServer.
-    You command the TestServer to execute the entire project, or an individual test
-    suite or test case in it. The recipe request should have a Ready! API project
-    file (.xml) attached to it.
+- name: TestServer REST API Executes a zipped Ready! API composite project.
+  description: Use this operation to send a zipped Ready! API composite project to
+    the TestServer. You command the TestServer to execute the entire project, or an
+    individual test suite or test case in it. The recipe request should have a Ready!
+    API project file (.xml) attached to it.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
   humanURL: http://smartbear.com/
   baseURL: http:://testserver.readyapi.io:8080//v1
   tags: Executions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-xml-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-composite-post.md
 x-common:
 - type: x-blog
   url: http://blog.smartbear.com/
