@@ -30,19 +30,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-transactions-transactionid-get.md
-- name: TestServer REST API Posts a file for the specified test run
-  description: Use this operation to send additional files required by the executed
-    test recipes. For example, you may need to send an Excel file for your test recipe
-    that uses an Excel data source. The test recipe will be in the "PENDING" status
-    until it receives the required file. Use the <code>multipart/form-data</code>
-    media type for this request.
+- name: TestServer REST API Gets message exchange for a test step execution transaction
+  description: A particular execution of a test step is referred as transaction. Use
+    this operation to get the request and response for a transaction in HAR format.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
   humanURL: http://smartbear.com/
   baseURL: http:://testserver.readyapi.io:8080//v1
   tags: Executions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-files-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-transactions-transactionid-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-transactions-transactionid-get-postman.md
 x-common:
 - type: x-blog
   url: http://blog.smartbear.com/
