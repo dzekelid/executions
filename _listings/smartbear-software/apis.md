@@ -30,22 +30,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-transactions-transactionid-get.md
-- name: TestServer REST API Returns the transaction logs for the specified recipe
-    execution.
-  description: Use this operation to get transaction logs (individual request and
-    recponse of executed test steps) of the recipe execution specified by <i>executionID</i>.  You
-    can find it in the response of your execution request ([see how](http://readyapi.smartbear.com/testserver/tutorials/your_first_recipe/results)),
-    or you can send a GET <code>/readyapi/executions/{executionID}/logs</code> request
-    to the TestServer.
+- name: TestServer REST API Posts a file for the specified test run
+  description: Use this operation to send additional files required by the executed
+    test recipes. For example, you may need to send an Excel file for your test recipe
+    that uses an Excel data source. The test recipe will be in the "PENDING" status
+    until it receives the required file. Use the <code>multipart/form-data</code>
+    media type for this request.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
   humanURL: http://smartbear.com/
   baseURL: http:://testserver.readyapi.io:8080//v1
   tags: Executions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-logs-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-logs-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-files-post.md
 x-common:
 - type: x-blog
   url: http://blog.smartbear.com/
