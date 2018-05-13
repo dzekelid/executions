@@ -37,15 +37,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/aws-ec2-systems-manager/action-describemaintenancewindowexecutions-get.md
-- name: Amazon EC2 Systems Manager API Describe Automation Executions
-  description: Provides details about all active and terminated Automation executions.
+- name: Amazon EC2 Systems Manager API Describe Maintenance Window Executions
+  description: |-
+    Lists the executions of a Maintenance Window (meaning, information about when the
+       Maintenance Window was scheduled to be active and information about tasks registered and run with
+       the Maintenance Window).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
   humanURL: https://aws.amazon.com/ec2/systems-manager/
   baseURL: http:://{host}//
   tags: Executions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/aws-ec2-systems-manager/action-describeautomationexecutions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/aws-ec2-systems-manager/action-describemaintenancewindowexecutions-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/ssm/latest/APIReference/Welcome.html
