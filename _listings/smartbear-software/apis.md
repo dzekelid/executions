@@ -30,7 +30,31 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-transactions-transactionid-get.md
+- name: TestServer REST API Returns test run results stored on the TestServer.
+  description: Use this operation to get results of the latest test runs stored on
+    the TestServer.<br/> The number of stored results is [configurable](http://readyapi.smartbear.com/testserver/reference/server_properties).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
+  humanURL: http://smartbear.com/
+  baseURL: http:://testserver.readyapi.io:8080//v1
+  tags: Executions
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-get-postman.md
 x-common:
+- type: x-blog
+  url: http://blog.smartbear.com/
+- type: x-blog-rss
+  url: http://feeds.feedburner.com/smartbear
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/smart-bear-software
+- type: x-github
+  url: https://github.com/SmartBear
+- type: x-twitter
+  url: https://twitter.com/smartbear
+- type: x-website
+  url: http://smartbear.com/
 - type: x-blog
   url: http://blog.smartbear.com/
 - type: x-blog-rss
