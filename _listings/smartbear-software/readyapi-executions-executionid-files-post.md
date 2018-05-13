@@ -1,22 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: Ready! API TestServer API
-  description: 'A REST API based API testing framework; submit JSON test recipes using
-    your favorite HTTP client or one of the existing open-source clients/tools on
-    GitHub  to run API tests either asynchronously or synchronously:- Java Client:
-    https://github.com/SmartBear/ready-api-testserver-client- Maven Plugin: https://github.com/olensmar/readyapi-testserver-maven-plugin  -
-    Nodejs CLI: https://github.com/olensmar/ready-api-testserver-cli- Test-Recipe
-    from Swagger generator: https://github.com/olensmar/testserver-swagger-codegen-
-    Cucumber integration: https://github.com/olensmar/testserver-cucumberCheck out
-    samples at https://github.com/smartbear/ready-api-testserver-samples and the documentation
-    at http://readyapi.smartbear.com/testserver/start.### Try it out!A use-at-your-own-risk
-    sandbox is provided at http://testserver.readyapi.io:8080 - feel free to try it
-    out using Swagger-UI or any other tool of your liking (use demoUser/demoPassword
-    as your basic authentication credentials). The sandbox is currently configured
-    to support only REST requests and PropertyTransfers - if you want to try DataSources/DataSinks/Scripts
-    in your API tests you will need to install and run your own instance of the TestServer
-    - download it from https://smartbear.com/product/ready-api/testserver/overview/'
+  title: TestServer REST API Posts a file for the specified test run
+  description: Use this operation to send additional files required by the executed
+    test recipes. For example, you may need to send an Excel file for your test recipe
+    that uses an Excel data source. The test recipe will be in the "PENDING" status
+    until it receives the required file. Use the <code>multipart/form-data</code>
+    media type for this request.
   contact:
     name: SmartBear Software
     url: http://smartbear.com/testserver
