@@ -30,18 +30,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-transactions-transactionid-get.md
-- name: TestServer REST API Returns test run results stored on the TestServer.
-  description: Use this operation to get results of the latest test runs stored on
-    the TestServer.<br/> The number of stored results is [configurable](http://readyapi.smartbear.com/testserver/reference/server_properties).
+- name: TestServer REST API Runs a test recipe.
+  description: Use this operation to send a test recipe to the TestServer. The recipe
+    contents is passed in the request body (should be valid JSON contents).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
   humanURL: http://smartbear.com/
   baseURL: http:://testserver.readyapi.io:8080//v1
   tags: Executions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-post.md
 x-common:
 - type: x-blog
   url: http://blog.smartbear.com/
