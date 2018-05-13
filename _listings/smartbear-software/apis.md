@@ -30,9 +30,10 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-transactions-transactionid-get.md
-- name: TestServer REST API Cancels the specified recipe execution
-  description: Use this operation to stop the run specified by <i>executionID</i>.
-    You can find in the response to your execution request ([see how](http://readyapi.smartbear.com/testserver/tutorials/your_first_recipe/results)),
+- name: TestServer REST API Returns the status of the specified recipe execution.
+  description: Use this operation to get information on the recipe execution specified
+    by <i>executionID</i>.  You can find in the response to your execution request
+    ([see how](http://readyapi.smartbear.com/testserver/tutorials/your_first_recipe/results)),
     or you can send a GET <code>/readyapi/executions</code> request to the TestServer.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
   humanURL: http://smartbear.com/
@@ -40,9 +41,9 @@ apis:
   tags: Executions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-status-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapi-executions-executionid-status-get-postman.md
 x-common:
 - type: x-blog
   url: http://blog.smartbear.com/
