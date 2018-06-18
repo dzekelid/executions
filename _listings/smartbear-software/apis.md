@@ -1,15 +1,14 @@
 ---
 name: SmartBear Software
 x-slug: smartbear-software
-description: SmartBear Software provides tools for over 100,000 software professionals
-  to build, test, and monitor some of the best software applications and websites
-  anywhere on the desktop, mobile and in the cloud.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
+description: Testing and Development teams around the world use SmartBears automation,
+  development and monitoring tools to build better software and applications.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1157-smartbear-software.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "35193"
 tags: Executions
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/apis.md
 specificationVersion: "0.14"
 apis:
@@ -17,7 +16,7 @@ apis:
   x-api-slug: testserver-rest-api
   description: Use this operation to get results of the latest test runs stored on
     the TestServer.<br/> The number of stored results is [configurable](http://readyapi.smartbear.com/testserver/reference/server_properties).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1157-smartbear-software.jpg
   humanURL: http://smartbear.com/
   baseURL: ://testserver.readyapi.io:8080//v1//readyapi/executions
   tags: Executions
@@ -30,7 +29,7 @@ apis:
   x-api-slug: testserver-rest-api
   description: Use this operation to send a test recipe to the TestServer. The recipe
     contents is passed in the request body (should be valid JSON contents).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1157-smartbear-software.jpg
   humanURL: http://smartbear.com/
   baseURL: ://testserver.readyapi.io:8080//v1//readyapi/executions
   tags: Executions
@@ -43,7 +42,7 @@ apis:
     You command the TestServer to execute the entire project, or an individual test
     suite or test case in it. The recipe request should have a Ready! API project
     file (.xml) attached to it.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1157-smartbear-software.jpg
   humanURL: http://smartbear.com/
   baseURL: ://testserver.readyapi.io:8080//v1//readyapi/executions/xml
   tags: Executions
@@ -56,7 +55,7 @@ apis:
     the TestServer. You command the TestServer to execute the entire project, or an
     individual test suite or test case in it. The recipe request should have a Ready!
     API project file (.xml) attached to it.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1157-smartbear-software.jpg
   humanURL: http://smartbear.com/
   baseURL: ://testserver.readyapi.io:8080//v1//readyapi/executions/composite
   tags: Executions
@@ -68,7 +67,7 @@ apis:
   description: Use this operation to stop the run specified by <i>executionID</i>.
     You can find in the response to your execution request ([see how](http://readyapi.smartbear.com/testserver/tutorials/your_first_recipe/results)),
     or you can send a GET <code>/readyapi/executions</code> request to the TestServer.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1157-smartbear-software.jpg
   humanURL: http://smartbear.com/
   baseURL: ://testserver.readyapi.io:8080//v1//readyapi/executions/{executionID}
   tags: Executions
@@ -83,7 +82,7 @@ apis:
     by <i>executionID</i>.  You can find in the response to your execution request
     ([see how](http://readyapi.smartbear.com/testserver/tutorials/your_first_recipe/results)),
     or you can send a GET <code>/readyapi/executions</code> request to the TestServer.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1157-smartbear-software.jpg
   humanURL: http://smartbear.com/
   baseURL: ://testserver.readyapi.io:8080//v1//readyapi/executions/{executionID}/status
   tags: Executions
@@ -100,7 +99,7 @@ apis:
     can find it in the response of your execution request ([see how](http://readyapi.smartbear.com/testserver/tutorials/your_first_recipe/results)),
     or you can send a GET <code>/readyapi/executions/{executionID}/logs</code> request
     to the TestServer.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1157-smartbear-software.jpg
   humanURL: http://smartbear.com/
   baseURL: ://testserver.readyapi.io:8080//v1//readyapi/executions/{executionID}/logs
   tags: Executions
@@ -116,7 +115,7 @@ apis:
     that uses an Excel data source. The test recipe will be in the "PENDING" status
     until it receives the required file. Use the <code>multipart/form-data</code>
     media type for this request.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1157-smartbear-software.jpg
   humanURL: http://smartbear.com/
   baseURL: ://testserver.readyapi.io:8080//v1//readyapi/executions/{executionId}/files
   tags: Executions
@@ -127,7 +126,7 @@ apis:
   x-api-slug: testserver-rest-api
   description: A particular execution of a test step is referred as transaction. Use
     this operation to get the request and response for a transaction in HAR format.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1157-smartbear-software.jpg
   humanURL: http://smartbear.com/
   baseURL: ://testserver.readyapi.io:8080//v1//readyapi/executions/{executionID}/transactions/{transactionId}
   tags: Executions
@@ -138,10 +137,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/executions/master/_listings/smartbear-software/readyapiexecutionsexecutionidtransactionstransactionid-get-openapi.md
 - name: TestServer REST API
   x-api-slug: testserver-rest-api
-  description: SmartBear Software provides tools for over 100,000 software professionals
-    to build, test, and monitor some of the best software applications and websites
-    anywhere on the desktop, mobile and in the cloud.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
+  description: Testing and Development teams around the world use SmartBears automation,
+    development and monitoring tools to build better software and applications.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1157-smartbear-software.jpg
   humanURL: http://smartbear.com/
   baseURL: ://testserver.readyapi.io:8080//v1
   tags: Executions
@@ -153,6 +151,8 @@ x-common:
   url: http://blog.smartbear.com/
 - type: x-blog-rss
   url: http://feeds.feedburner.com/smartbear
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/smart-bear-software
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/smart-bear-software
 - type: x-github
